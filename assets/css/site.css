@@ -225,47 +225,47 @@ input {
 .asterisk {
   color: #477dca; }
 
-.apply-to-join .applications-open {
+.join-mailing-list, .apply-to-sponsor, .applications-open {
   text-align: center; }
 
-.community-rules > main {
+#community-rules > main {
   max-width: 62em;
   margin-left: auto;
   margin-right: auto; }
-  .community-rules > main::after {
+  #community-rules > main::after {
     clear: both;
     content: "";
     display: table; }
-  .community-rules > main article {
+  #community-rules > main article {
     float: left;
     display: block;
     margin-right: 5.42989%;
     width: 47.28505%; }
-    .community-rules > main article:last-child {
+    #community-rules > main article:last-child {
       margin-right: 0; }
-    .community-rules > main article:nth-child(2n) {
+    #community-rules > main article:nth-child(2n) {
       margin-right: 0; }
-    .community-rules > main article:nth-child(2n+1) {
+    #community-rules > main article:nth-child(2n+1) {
       clear: left; }
 
-.about {
+#about {
   max-width: 62em;
   margin-left: auto;
   margin-right: auto; }
-  .about::after {
+  #about::after {
     clear: both;
     content: "";
     display: table; }
-  .about article {
+  #about article {
     float: left;
     display: block;
     margin-right: 5.42989%;
     width: 47.28505%; }
-    .about article:last-child {
+    #about article:last-child {
       margin-right: 0; }
-    .about article:nth-child(2n) {
+    #about article:nth-child(2n) {
       margin-right: 0; }
-    .about article:nth-child(2n+1) {
+    #about article:nth-child(2n+1) {
       clear: left; }
 
 q {

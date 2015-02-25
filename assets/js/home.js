@@ -29,6 +29,13 @@ $(document).ready(function() {
   , pageSubject: $('body').attr('id')
   });
 
+  Track.explore(".bottom .exploring", "Referenced membership benefits", {
+    position: "bottom"
+  , color: "Blue"
+  , category: "Membership"
+  , pageSubject: $('body').attr('id')
+  });
+
   Track.cta(".top .applications-closed a", "Requested invite", {
     color: "Blue"
   , category: "Applying"
@@ -38,6 +45,20 @@ $(document).ready(function() {
   Track.cta(".bottom .applications-closed a", "Requested invite", {
     color: "Blue"
   , category: "Applying"
+  , pageSubject: $('body').attr('id')
+  });
+
+  Track.explore(".sponsorships .exploring", "Referenced sponsorship prospectus", {
+    position: "top"
+  , color: "Blue"
+  , category: "Sponsorship"
+  , pageSubject: $('body').attr('id')
+  });
+
+  Track.cta(".sponsorships .engaging", "Began applying to sponsor", {
+    position: "top"
+  , color: "Blue"
+  , category: "Applying to Sponsor"
   , pageSubject: $('body').attr('id')
   });
 });
